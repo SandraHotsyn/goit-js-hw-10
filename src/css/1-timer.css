@@ -1,0 +1,43 @@
+.greeting {
+  margin: 20px 0;
+}
+#datetime-picker {
+  width: 254px;
+}
+
+button[type='button'] {
+  margin-left: 4px;
+  width: 75px;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: block;
+  text-align: center;
+}
+
+.value {
+  display: block;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  height: 48px;
+}
+.label {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}
