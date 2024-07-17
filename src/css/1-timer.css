@@ -1,6 +1,7 @@
 .greeting {
   margin: 20px 0;
 }
+
 #datetime-picker {
   width: 254px;
 }
@@ -36,8 +37,4 @@ button[type='button'] {
   line-height: 150%;
   color: #2e2f42;
   text-transform: uppercase;
-}
-
-.hidden {
-  display: none;
 }

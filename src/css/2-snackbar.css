@@ -1,0 +1,46 @@
+form {
+  padding: 0;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[name='delay'] {
+  width: 342px;
+  margin: 10px 0 20px 0;
+}
+
+fieldset {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  padding: 20px 48px 8px 48px;
+  width: 260px;
+  height: 32px;
+  border: 2px solid #808080;
+  margin: 0;
+  border-radius: 4px;
+}
+
+fieldset legend {
+  padding: 0 5px;
+  margin-left: -27px;
+}
+
+input[type='radio'] {
+  width: 20px;
+  height: 20px;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 32px;
+  margin-top: -12px;
+}
+
+button[type='submit'] {
+  width: 360px;
+  margin-top: 20px;
+}
